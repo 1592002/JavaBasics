@@ -1,2 +1,4 @@
-module JavaBasics {
+public class First
+{
+	
 }
