@@ -47,8 +47,9 @@ public class ReadFile {
 					charcount=charcount+word.length();
 				}
 			}
-			System.out.println("Number of lines are "+lineCount);
-			System.out.println("Number of words are "+wordCount);
+			// print the output
+			System.out.println("Number of lines are " +lineCount);
+			System.out.println("Number of words are " +wordCount);
 			System.out.println("Number of character are "+charcount);
 		} 
 		catch (IOException e) {
