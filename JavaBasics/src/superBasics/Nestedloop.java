@@ -20,7 +20,7 @@ public class Nestedloop {
 				System.out.println(+A + " is greater than " + B + " So Subtraction of given two numbers is :" + output);
 			} else if (A < B) {
 				output = A * B;
-				System.out.println(+A + " is Less than " + B + " So Multiplication of given two numbers is :" + output);
+				System.out.println(+A + " is greater than " + B + " So Multiplcation of given two numbers is :" + output);
 			}
 		} else
 
