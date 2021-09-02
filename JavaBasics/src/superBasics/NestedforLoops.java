@@ -1,14 +1,19 @@
 package superBasics;
 
 import org.junit.Test;
-
+//import org.junit.FixMethodOrder;
+//import org.junit.runners.MethodSorters;
+//
+//@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class NestedforLoops {
+	
 
 //	/*
 //	 ****
 //	 ***** 
 //	 ***** using loops.
 //	 *****/
+
 	@Test
 	public void testCase1() {
 		for (int i = 1; i <= 5; i++) {
@@ -183,5 +188,17 @@ public class NestedforLoops {
 			System.out.println();// to start a new line
 		}
 	}
+	
+	@Test
+	public void testCase12() {
+		int alpha = 65;
+		for (int i = 1; i <= 7; i++) {// this loop will cover the lines
 
+			for (int j = 0; j <i; j++) {// inner loop, will print
+				System.out.print((char) (alpha+j) + " ");
+			}
+			alpha=alpha+i;
+			System.out.println();// to start a new line
+		}
+	}
 }

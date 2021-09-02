@@ -2,7 +2,7 @@ package superBasics;
 
 import org.junit.Test;
 
-public class stringFunctions {
+public class StringFunctions {
 
 @Test
 public void test()
