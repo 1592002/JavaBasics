@@ -201,4 +201,28 @@ public class NestedforLoops {
 			System.out.println();// to start a new line
 		}
 	}
+	@Test
+	public void testCase13() {
+		int alpha = 0;
+		for (int i = 1; i <= 7; i++) {// this loop will cover the lines
+
+			for (int j = 0; j <i; j++) {// inner loop, will print
+				System.out.print((alpha+j) + " ");
+			}
+			alpha=alpha+i;
+			System.out.println();// to start a new line
+		}
+	}
+	@Test
+	public void testCase14() {
+		int alpha = 0;
+		for (int i = 1; i <= 7; i++) {// this loop will cover the lines
+
+			for (int j = 0; j <i; j++) {// inner loop, will print
+				System.out.print((alpha+j) + " ");
+			}
+			
+			System.out.println();// to start a new line
+		}
+	}
 }
